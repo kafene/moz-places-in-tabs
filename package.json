@@ -1,0 +1,35 @@
+{
+  "name": "places-in-tabs",
+  "title": "places-in-tabs",
+  "version": "0.0.1",
+  "id": "places-in-tabs@addons.mozilla.org",
+  "description": "Makes Firefox open places pages (Bookmarks, Downloads, History) in a tab instead of a window.",
+  "license": "MPL-2.0",
+  "preferences": [
+    {
+      "name": "open_history_in_tab",
+      "title": "Open \"All History\" in a tab",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "open_downloads_in_tab",
+      "title": "Open \"All Downloads\" in a tab",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "open_bookmarks_in_tab",
+      "title": "Open \"All Bookmarks\" in a tab",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "allow_duplicate_places_tabs",
+      "title": "Allow duplicate places tabs",
+      "type": "bool",
+      "description": "Disabled by default, as Firefox normally only allows one places window to be open at a time.",
+      "value": false
+    }
+  ]
+}
