@@ -5,6 +5,9 @@
   "id": "places-in-tabs@addons.mozilla.org",
   "description": "Makes Firefox open places pages (Bookmarks, Downloads, History) in a tab instead of a window.",
   "license": "MPL-2.0",
+  "permissions": {
+    "multiprocess": true
+  },
   "preferences": [
     {
       "name": "open_history_in_tab",
